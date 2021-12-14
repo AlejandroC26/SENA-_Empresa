@@ -1,0 +1,54 @@
+.table-admin{
+
+    width: 100%;
+}
+.table-admin a{
+    text-decoration: none;
+    color: #7c7c7c;
+    font-size: 1.2em;
+}
+.table-admin .option{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px 0;
+    display: flex;
+    border-bottom: 1px solid rgb(87, 163, 25);
+    transition: all 0.5s;
+}
+.table-admin .option:hover{
+    box-shadow: 0px 0px 10px rgb(53, 53, 53);
+}
+.table-admin .option .option-logo{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(87, 163, 25);
+}
+.table-admin .option .titulo{
+    margin: 0 10px;
+}
+
+.table-info{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+.table-info thead th{
+    background-color: rgb(87, 163, 25);
+    color: #fff;
+    padding: 10px 5px;
+}
+.table-info tbody tr td{
+    padding: 10px 5px;
+}
+a.btn-edit{
+    padding: 10px;
+    color: white;
+    background-color: rgb(64, 192, 224);
+    border-radius: 5px;
+}
+a.btn-delete{
+    padding: 10px;
+    color: white;
+    background-color: rgb(224, 64, 64);
+    border-radius: 5px;
+}
